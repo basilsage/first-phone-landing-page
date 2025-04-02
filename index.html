@@ -18,9 +18,16 @@
       color: #333;
       text-align: center;
     }
+    /* On Desktop */
     .container {
-      max-width: 90%;
+      max-width: 40%;
       padding: 20px;
+    }
+    /* On Mobile */
+    @media (max-width: 600px) {
+      .container {
+        max-width: 80%; /* Adjusts the max-width for mobile devices */
+      }
     }
     h1 {
       font-size: 1.1rem;
